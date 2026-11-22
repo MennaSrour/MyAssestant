@@ -1,0 +1,54 @@
+{
+  "name": "hayati-os",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0",
+    "check": "tsc --noEmit",
+    "seed": "node --env-file-if-exists=.env scripts/seed.mjs",
+    "postinstall": "node scripts/generate-prisma.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MennaSrour/MyAssestant.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MennaSrour/MyAssestant/issues"
+  },
+  "homepage": "https://github.com/MennaSrour/MyAssestant#readme",
+  "dependencies": {
+    "@fontsource-variable/cairo": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@prisma/adapter-pg": "7.10.1",
+    "@prisma/client": "7.10.1",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.2",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.77.0",
+    "next": "^16.4.6",
+    "pg": "^8.23.1",
+    "radix-ui": "^1.8.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.1"
+  },
+  "devDependencies": {
+    "@prisma/client-generator-ts": "7.10.1",
+    "@prisma/internals": "7.10.1",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2"
+  },
+  "private": true,
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  }
+}

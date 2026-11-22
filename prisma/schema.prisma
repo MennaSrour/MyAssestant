@@ -1,0 +1,14 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+datasource db {
+  provider = "postgresql"
+}
+model Workspace {
+  ownerId   String   @id @map("owner_id") @db.Uuid
+  version   Int      @default(0)
+  entries   Json     @default("[]")
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz
+  @@map("workspaces")
+}

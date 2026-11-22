@@ -1,0 +1,115 @@
+[
+  {
+    "id": "hifz",
+    "kind": "tracker",
+    "title": "Quran Memorization",
+    "ar": "حفظ القرآن",
+    "detail": "Log your daily ayah range",
+    "arDetail": "سجّلي نطاق الآيات اليومي",
+    "type": "range",
+    "cadence": "daily",
+    "target": 1,
+    "unit": "range",
+    "xp": 30,
+    "color": "mint",
+    "surah": "Al-Baqarah"
+  },
+  {
+    "id": "water",
+    "kind": "tracker",
+    "title": "Drink Water",
+    "ar": "شرب الماء",
+    "detail": "8 glasses today",
+    "arDetail": "٨ أكواب اليوم",
+    "type": "number",
+    "cadence": "daily",
+    "target": 8,
+    "unit": "glasses",
+    "xp": 15,
+    "color": "blue"
+  },
+  {
+    "id": "study",
+    "kind": "tracker",
+    "title": "Deep Work",
+    "ar": "العمل المركّز",
+    "detail": "One focused study session",
+    "arDetail": "جلسة دراسة مركّزة",
+    "type": "boolean",
+    "cadence": "daily",
+    "target": 1,
+    "xp": 25,
+    "color": "violet"
+  },
+  {
+    "id": "sugar",
+    "kind": "tracker",
+    "title": "No Added Sugar",
+    "ar": "بدون سكر مضاف",
+    "detail": "Small choices, big changes",
+    "arDetail": "عادات صغيرة تصنع فرقًا",
+    "type": "boolean",
+    "cadence": "daily",
+    "target": 1,
+    "xp": 20,
+    "color": "peach"
+  },
+  {
+    "id": "quran-revision",
+    "kind": "tracker",
+    "title": "Quran Revision",
+    "ar": "مراجعة القرآن",
+    "detail": "Revise one juz this week",
+    "arDetail": "راجعي جزءًا هذا الأسبوع",
+    "type": "number",
+    "cadence": "weekly",
+    "target": 1,
+    "unit": "juz",
+    "xp": 30,
+    "color": "mint"
+  },
+  {
+    "id": "tutoring",
+    "kind": "project",
+    "title": "Tutoring Center Dashboard",
+    "ar": "لوحة مركز الدروس",
+    "columns": ["To do", "In progress", "Done"],
+    "color": "mint"
+  },
+  {
+    "id": "nabata",
+    "kind": "project",
+    "title": "Nabata Hasana - Islamic Kids App",
+    "ar": "نبتة حسنة للأطفال",
+    "columns": ["To do", "In progress", "Done"],
+    "color": "violet"
+  },
+  {
+    "id": "metric-habits",
+    "kind": "metric",
+    "title": "Habits completed",
+    "ar": "العادات المكتملة",
+    "type": "completed"
+  },
+  {
+    "id": "metric-streak",
+    "kind": "metric",
+    "title": "Current streak",
+    "ar": "التتابع الحالي",
+    "type": "streak"
+  },
+  {
+    "id": "metric-focus",
+    "kind": "metric",
+    "title": "Focus time",
+    "ar": "وقت التركيز",
+    "type": "focus"
+  },
+  {
+    "id": "metric-xp",
+    "kind": "metric",
+    "title": "XP balance",
+    "ar": "رصيد النقاط",
+    "type": "xp"
+  }
+]
